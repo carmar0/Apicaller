@@ -1,5 +1,4 @@
 import requests
-from datetime import date
 
 
 def obtener_tiempo_hoy():
