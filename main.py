@@ -18,7 +18,7 @@ def obtener_tiempo_hoy():
             temperaturas_int = [int(temperatura) for temperatura in data['pronostico']['hoy']['temperatura']]
             # Calculamos la media de las temperaturas
             media_temperaturas = sum(temperaturas_int) / len(temperaturas_int)
-            #Test2
+            #Test5
             if media_temperaturas:
                 print(f"Media de las temperaturas para hoy en Madrid: {media_temperaturas}")
             else:
