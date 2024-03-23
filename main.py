@@ -23,6 +23,7 @@ def obtener_tiempo_hoy():
                 print(f"Media de las temperaturas para hoy en Madrid: {media_temperaturas}")
             else:
                 print("No hay media de las temperaturas para hoy.")
+            #Test4
         else:
             print("Error al realizar la solicitud:", response.status_code)
     except Exception as e:
